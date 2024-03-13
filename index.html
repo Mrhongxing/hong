@@ -1,30 +1,24 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
- </head>
- <body>
-    <div id="i2"><img class="element" id="i1" src="./560776e61b157e1b3772fe4646e77a61.png" alt=""></div>
-    <div id="kzq"><input type="text"></div>
-    <script>
-        let position = 0;
-        let element = document.querySelector('.element');
-
-        let interval = setInterval(function() {
-            position++;
-            element.style.transform = `translateX(${position}vw)`;
-            if(position>=93){
-                position=93;
-            };
-    
-    
-        }, 50);
-
-    </script>
- </body>
- 
- </html> 
+</head>
+<body>
+    <div id="i2" class="jichu">
+        <div><img id="i1" src="/1/560776e61b157e1b3772fe4646e77a61.png" alt="tanchitou"></div>
+    </div>
+    <button id="i3">重置画面</button>
+    <div class="kongzhitai">
+        <button id="bottom">↓</button>
+        <button id="top">↑</button>
+        <button id="right">←</button>
+        <button id="left">→</button>
+    </div>
+    <div id="start">开始游戏</div>
+    <div id="score">得分：0</div>
+</body>
+</html>

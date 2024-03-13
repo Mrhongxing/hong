@@ -1,13 +1,82 @@
+.jichu{
+    background-color: grey;
+    position: relative;
+}
 #i1{
-    width: 5vw;
+    width: 10vw;
+    position: absolute;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#i3{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: aliceblue;
+    backdrop-filter: blur(50px);
+    border: none;
+    border-radius: 2px;
+    height: 10vw;
+    width: 10vw;
+}
+.kongzhitai{
+    position: fixed;
+    left: 20vw;
+    bottom: 0;
+    width: 60vw;
+    height: 20vh;
+}
+#left,#right{
+    height: 20vh;
+    position: absolute;
+    width: 10vw;
+}
+#right{
+    left: 0;
+}
+#left{
+    right: 0;
+
+}
+#top,#bottom{
+    width: 40vw;
+    height: 10vh;
+    left: 10vw;
+    position: absolute;
+}
+#top{
+    top: 0;
+}
+#bottom{
+    bottom: 0;
 }
 body{
     margin: 0;
     padding: 0;
-    
 }
-#i2{
-    background-color: gray;
-    
-    
+#start{
+    position: fixed;
+    right: 0;
+    bottom: 10vw;
+    background-color: aliceblue;
+    backdrop-filter: blur(50px);
+    border: none;
+    border-radius: 2px;
+    height: 10vw;
+    width: 10vw;
+}
+#score{
+    position: fixed;
+    right: 0;
+    bottom: 20vw;
+    background-color: aliceblue;
+    backdrop-filter: blur(50px);
+    border: none;
+    border-radius: 2px;
+    height: 10vw;
+    width: 10vw;
 }
